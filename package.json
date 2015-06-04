@@ -1,0 +1,31 @@
+{
+  "name": "postcss-bem-validator",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to validate BEM names",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "bem"
+  ],
+  "author": "Anton Winogradov <winogradovaa@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verybigman/postcss-bem-validator.git"
+  },
+  "dependencies": {
+    "bem-naming": "^0.5.1",
+    "lodash": "^3.9.3",
+    "postcss": "^4.1.9"
+  },
+  "devDependencies": {
+    "gulp-eslint": "^0.12.0",
+    "gulp-mocha": "^2.0.1",
+    "chai": "^2.3.0",
+    "gulp": "^3.8.11"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}
