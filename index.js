@@ -13,15 +13,6 @@ module.exports = postcss.plugin('postcss-bem-validator', function (opts) {
             }
 
             var selectors = rule.selectors;
-
-            // console.log('\n');
-            // console.log(selectors);
-            // console.log('\n');
-            // console.log(rule);
-            // console.log('\n');
-            // console.log('\n');
-            // console.log('\n');
-
             selectors.forEach(function(selector) {
                 var names = _.compact(selector.split('.'));
                 names.forEach(function(name) {
