@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "bem-naming": "^0.5.1",
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.19",
     "postcss": "^4.1.9"
   },
   "devDependencies": {
